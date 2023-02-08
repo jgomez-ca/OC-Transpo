@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .schedule {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .schedule ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .schedule li {
+    margin-bottom: 20px;
+  }
